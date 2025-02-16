@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.button-container {
+    margin: 20px;
+}
+
+.glass-button {
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 18px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.glass-button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+}
+
+.neumorph-button {
+    padding: 15px 30px;
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.neumorph-button:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.7);
+}
+
+.clickbox {
+    padding: 15px 30px;
+    background-color: lightsteelblue;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
